@@ -9,15 +9,21 @@ We're in the early stages of the modification now, with more work to do and more
  - solana-block-tracker: https://github.com/kiemtienonline360/solana-block-tracker
  - solana-keyring-controller: https://github.com/kiemtienonline360/solana-keyring-controller
 
+# What we done
+ - Support import/export accounts
+ - Support create new accounts
+
+https://youtu.be/3JYjvMO17kg
+
+# What we next
+...
+
 ## Building locally
 
 - Install [Node.js](https://nodejs.org) version 10
-    - If you are using [nvm](https://github.com/creationix/nvm#installation) (recommended) running `nvm use` will automatically choose the right node version for you.
 - Install [Yarn](https://yarnpkg.com/en/docs/install)
 - Install dependencies: `yarn`
 - Copy the `.metamaskrc.dist` file to `.metamaskrc`
-    - Replace the `INFURA_PROJECT_ID` value with your own personal [Infura Project ID](https://infura.io/docs).
-    - If debugging MetaMetrics, you'll need to add a value for `SEGMENT_WRITE_KEY` [Segment write key](https://segment.com/docs/connections/find-writekey/).
 - Build the project to the `./dist/` folder with `yarn dist`.
 - Optionally, to start a development build (e.g. with logging and file watching) run `yarn start` instead.
     - To start the [React DevTools](https://github.com/facebook/react-devtools) and [Redux DevTools Extension](http://extension.remotedev.io)
